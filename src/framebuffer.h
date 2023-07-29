@@ -302,11 +302,11 @@ void initialState()
         else if (i % 5 == 0)
             tub(x, y);
         else if (i % 3 == 0)
-            pulsar(x, y);
+            pentaDecathlon(x, y);
         else if (i % 2 == 0)
             hwss(x, y);
         else
-            pentaDecathlon(x, y);
+            pulsar(x, y);
     }
 }
 

@@ -166,10 +166,10 @@ void boat(float x, float y)
 
 void tub(float x, float y)
 {
-    point(Vertex2{x + 0, y + 0});
-    point(Vertex2{x - 1, y - 1});
+    point(Vertex2{x, y});
+    point(Vertex2{x + 1, y + 1});
     point(Vertex2{x - 1, y + 1});
-    point(Vertex2{x + 0, y - 2});
+    point(Vertex2{x, y + 2});
 }
 
 void pulsar(float x, float y)
@@ -213,7 +213,7 @@ void pulsar(float x, float y)
     point(Vertex2{x, y + 9});
     point(Vertex2{x + 2, y + 9});
     point(Vertex2{x + 4, y + 9});
-    point(Vertex2{x + 5, y + 9});
+    point(Vertex2{x + 6, y + 9});
     point(Vertex2{x + 8, y + 9});
     point(Vertex2{x - 4, y + 10});
     point(Vertex2{x - 3, y + 10});
